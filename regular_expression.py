@@ -17,7 +17,7 @@ for line in hand:
     if line.startswith("From:") >= 0 :
         print(line)
 
-#findall()
+#re.findall()
 sentence = "my 2 favorite numbers are 3 and 71"
 numbers = re.findall("[0-9]+",sentence)
 print(numbers)

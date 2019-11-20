@@ -10,7 +10,7 @@ print(line.find("data"))
         
 #startswith() 
 #This method returns true if found matching string otherwise false.
-print(line.startswith("data") >= 0)
+print(line.startswith("data"))
 
 #re.findall()
 #findall() is probably the single most powerful function in the re module. 
